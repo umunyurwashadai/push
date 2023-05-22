@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<!-- saved from url=(0012)edge://surf/ -->
+<html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="edge://surf/base-error-reporting.js"></script><script src="edge://surf/surf-error-reporting.js"></script><script src="edge://resources/js/assert.js"></script><script src="edge://resources/js/promise_resolver.js"></script><script src="edge://resources/js/cr.js"></script><script src="edge://resources/js/parse_html_subset.js"></script><script src="edge://resources/js/load_time_data.js"></script><script src="edge://resources/js/util.js"></script><script src="edge://surf/strings.js"></script><link href="edge://surf/interface.css" rel="stylesheet" media="all"><style data-jss="" data-meta="BaseToggle">
+.c0187 {
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+  color: #262626;
+}
+@media (-ms-high-contrast:active) {
+  .c0187 {
+    -ms-high-contrast-adjust: none;
+  }
+}
+.c0188 {
+  clear: both;
+  cursor: pointer;
+  display: block;
+  padding-bottom: 7px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.c0189 {
+  cursor: pointer;
+  position: relative;
+  margin-top: 0;
+  float: left;
+}
+.c0190 {
+  position: absolute;
+  transition: all .1s ease;
+  pointer-events: none;
+  top: 5px;
+  left: 5px;
+  right: unset;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background: #262626;
+}
+.c0191 {
+  cursor: pointer;
+  margin: 0;
+  display: block;
+  outline: none;
+  position: relative;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 40px;
+  height: 20px;
+  background: #F7F7F7;
+  border: 1px solid #8D8D8D;
+  border-radius: 20px;
+}
+.c0191:active {
+  background: #F7F7F7;
+  border-color: #A4A4A4;
+}
+.c0191:hover {
+  background: #F7F7F7;
+  border-color: #666666;
+}
+.c0191:focus {
+  outline: none;
+}
+.c0191:focus-visible {
+  box-shadow: 0 0 0 2px #F7F7F7, 0 0 0 4px #838383;
+}
+@media (-ms-high-contrast:active) {
+  .c0191 {
+    background: Window;
+    border-color: ButtonText;
+  }
+  .c0191 + span {
+    background: ButtonText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0191:focus-visible {
+    box-shadow: 0 0 0 2px ButtonFace, 0 0 0 4px ButtonText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0191:hover {
+    background: Window;
+    border-color: Highlight;
+  }
+  .c0191:hover + span {
+    background: Highlight;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0191:active {
+    background: Highlight;
+    border-color: HighlightText;
+  }
+  .c0191:active + span {
+    background: HighlightText;
+  }
+}
+.c0192 {
+}
+.c0192 .c0191 {
+  background: #0078D4;
+  border-color: #0078D4;
+}
+.c0192 .c0190 {
+  left: 25px;
+  right: unset;
+  background: #FFFFFF;
+}
+.c0192 .c0191:disabled {
+}
+.c0192 .c0191:hover {
+}
+.c0192 .c0191:active {
+}
+@media (-ms-high-contrast:active) {
+  .c0192 .c0191 {
+    background: Highlight;
+    border-color: Highlight;
+  }
+  .c0192 .c0191 + span {
+    background: HighlightText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0192 .c0191:active {
+    background: Highlight !important;
+    border-color: Highlight !important;
+  }
+  .c0192 .c0191:active + span {
+    background: HighlightText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0192 .c0191:hover {
+    background: HighlightText;
+    border-color: Highlight;
+  }
+  .c0192 .c0191:hover + span {
+    background: Highlight;
+  }
+}
+.c0192 .c0191:disabled .c0191, .c0192 .c0191:disabled .c0188, .c0192 .c0191:disabled .c0194 {
+}
+@media (-ms-high-contrast:active) {
+  .c0192 .c0191:disabled .c0191, .c0192 .c0191:disabled .c0188, .c0192 .c0191:disabled .c0194 {
+    color: GrayText !important;
+    background: transparent;
+    border-color: GrayText !important;
+  }
+  .c0192 .c0191:disabled .c0191 + span, .c0192 .c0191:disabled .c0188 + span, .c0192 .c0191:disabled .c0194 + span {
+    background: GrayText !important;
+  }
+}
+.c0193 {
+  cursor: not-allowed !important;
+  opacity: 0.3;
+}
+@media (-ms-high-contrast:active) {
+  .c0193 {
+    color: GrayText;
+    opacity: 1;
+  }
+}
+.c0193 .c0191, .c0193 .c0188, .c0193 .c0194 {
+  cursor: not-allowed !important;
+}
+@media (-ms-high-contrast:active) {
+  .c0193 .c0191, .c0193 .c0188, .c0193 .c0194 {
+    color: GrayText !important;
+    background: transparent;
+    border-color: GrayText !important;
+  }
+  .c0193 .c0191 + span, .c0193 .c0188 + span, .c0193 .c0194 + span {
+    background: GrayText !important;
+  }
+}
+.c0194 {
+  margin-top: 0;
+  user-select: none;
+  padding-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  float: left;
+  padding-left: 6px;
+}
+@media (-ms-high-contrast:active) {
+  .c0194 {
+    fill: WindowText !important;
+    color: WindowText !important;
+  }
+}
+</style><style data-jss="" data-meta="BaseToggle - jssStyleSheet">
+.c0195 {
+  margin-inline-start: 5px;
+  float: right;
+}
+.c0196 {
+  padding-inline-start: 0px;
+}
+</style><style data-jss="" data-meta="BaseDivider">
+.c0186 {
+  height: 0;
+  margin: 0;
+  border: none;
+  box-sizing: content-box;
+  transition: all 0.2s ease-in-out;
+  border-top: 1px solid #E2E2E2;
+}
+@media (-ms-high-contrast:active) {
+  .c0186 {
+    border-color: ButtonText;
+  }
+}
+</style><style data-jss="" data-meta="MSFTParagraph">
+.c0182 {
+  cursor: default;
+  font-weight: 400;
+}
+.c0183 {
+}
+.c0184 {
+}
+.c0185 {
+}
+</style><style data-jss="" data-meta="MSFTSelect">
+.c0169 {
+  max-width: 374px;
+  height: 32px;
+}
+.c0170 {
+  width: 100%;
+  cursor: pointer;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-family: inherit;
+  height: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  background: #F7F7F7;
+  border: 1px solid #B6B6B6;
+  color: #262626;
+  padding: 0 11px;
+  border-radius: 2px;
+}
+.c0170:hover:enabled {
+  background: #F7F7F7;
+  border-color: #909090;
+}
+.c0170:active:enabled {
+  background: #F7F7F7;
+  border-color: #CECECE;
+}
+.c0170:focus:enabled {
+  outline: none;
+  box-shadow: 0 0 0 1px #838383 inset;
+  border-color: #838383;
+}
+.c0170:disabled {
+  cursor: not-allowed !important;
+  opacity: 0.3;
+}
+.c0170::placeholder {
+  color: #717171;
+}
+@media (-ms-high-contrast:active) {
+  .c0170 {
+    fill: ButtonText;
+    color: ButtonText;
+    background: ButtonFace;
+    border-color: ButtonText;
+    -ms-high-contrast-adjust: none;
+  }
+}
+.c0170:disabled > span > svg {
+}
+@media (-ms-high-contrast:active) {
+  .c0170:disabled > span > svg {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0170::placeholder {
+    color: GrayText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0170:disabled {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+    background: ButtonFace !important;
+    border-color: GrayText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0170:focus:enabled {
+    border-color: ButtonText;
+    box-shadow: 0 0 0 1px inset ButtonText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0170:hover:enabled {
+    background: ButtonFace;
+    border: 1px solid Highlight;
+  }
+}
+.c0171 {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  grid-template-columns: 1fr auto;
+}
+.c0172 {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.c0173 {
+  grid-column-start: 2;
+  margin: 0 0 0 10px;
+  fill: #262626;
+}
+@media (-ms-high-contrast:active) {
+  .c0173 {
+    fill: ButtonText !important;
+    color: ButtonText !important;
+  }
+}
+.c0174 {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: auto;
+  max-height: 328px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0px 12.8px 28.8px rgba(0,0,0,0.13908558841119492), 0px 0px 9.2px rgba(0,0,0,0.1176878055787034);
+  padding: 4px 0;
+}
+@media (-ms-high-contrast:active) {
+  .c0174 {
+    background: ButtonFace;
+    -ms-high-contrast-adjust: none;
+    border: 1px solid ButtonText;
+  }
+}
+.c0175 {
+}
+.c0175 .c0174 {
+  border: 1px solid;
+  position: static;
+  box-shadow: none;
+  border-color: #B6B6B6;
+}
+.c0176 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+.c0177 {
+  grid-template-columns: 1fr auto;
+}
+.c0177 .c0174 {
+  grid-column: 2;
+}
+.c0178 {
+  grid-template-columns: auto 1fr;
+}
+.c0178 .c0174 {
+  grid-column: 1;
+}
+.c0179 {
+  grid-template-rows: 1fr auto;
+}
+.c0179 .c0174 {
+  grid-row: 2;
+}
+.c0180 {
+  grid-template-rows: auto 1fr;
+}
+.c0180 .c0174 {
+  grid-row: 1;
+}
+</style><style data-jss="" data-meta="BaseLabel">
+.c0167 {
+  display: inline-block;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #262626;
+}
+.c0168 {
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+</style><style data-jss="" data-meta="MSFTSelect - jssStyleSheet">
+.c0181 {
+  z-index: 9;
+  background-color: inherit;
+}
+</style><style data-jss="" data-meta="MSFTButtonBase">
+.c0158 {
+  position: relative;
+}
+.c0158::before {
+  width: 100%;
+  bottom: -3px;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  left: 0;
+}
+.c0158 svg {
+}
+.c0159 {
+  cursor: not-allowed !important;
+  opacity: 0.3;
+}
+@media (-ms-high-contrast:active) {
+  .c0159 {
+    color: GrayText;
+    opacity: 1;
+  }
+}
+.c0160 {
+  display: flex;
+  min-width: 20px;
+  min-height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.c0161 {
+}
+.c0162 {
+}
+.c0163 {
+}
+.c0164 {
+}
+.c0165 {
+}
+.c0165 .c0161 {
+  margin-right: 10px;
+}
+.c0165 .c0162 {
+  margin-left: 10px;
+}
+.c0166 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  display: inline-flex;
+  overflow: hidden;
+  max-width: 374px;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  line-height: 1;
+  font-family: inherit;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 14px;
+  border-radius: 2px;
+  min-width: 32px;
+  height: 32px;
+  color: #0072C9;
+  fill: #0072C9;
+}
+.c0166::-moz-focus-inner {
+  border: 0;
+}
+.c0166:focus {
+  outline: none;
+}
+.c0166:focus-visible {
+  box-shadow: none;
+  border-color: transparent;
+}
+a.c0166, button.c0166 {
+}
+.c0166 .c0158::before {
+}
+.c0166:hover .c0158::before {
+  background: #0060A9;
+}
+.c0166:hover.c0159 .c0158::before {
+  display: none;
+}
+.c0166:active .c0158::before {
+  background: #097DD5;
+}
+.c0166.c0159, .c0166.c0159 .c0158::before {
+  background-color: transparent;
+}
+.c0166:hover:enabled, a.c0166:not(.c0159):hover {
+  background-color: transparent;
+  color: #0060A9;
+  fill: #0060A9;
+}
+.c0166:active:enabled, a.c0166:not(.c0159):active {
+  background-color: transparent;
+  color: #097DD5;
+  fill: #097DD5;
+}
+@media (-ms-high-contrast:active) {
+  .c0166 {
+    fill: ButtonText;
+    color: ButtonText;
+    border: none;
+    background: ButtonFace;
+    -ms-high-contrast-adjust: none;
+  }
+}
+a.c0166:not(.c0159) {
+}
+@media (-ms-high-contrast:active) {
+  a.c0166:not(.c0159) {
+    fill: LinkText !important;
+    color: LinkText !important;
+    background: Window;
+  }
+}
+a.c0166:not(.c0159):not(.c0159):hover {
+}
+a.c0166:not(.c0159):hover .c0158::before {
+}
+a.c0166:not(.c0159) .c0158::before {
+}
+@media (-ms-high-contrast:active) {
+  a.c0166:not(.c0159) .c0158::before {
+    background: transparent;
+  }
+}
+@media (-ms-high-contrast:active) {
+  a.c0166:not(.c0159):hover .c0158::before {
+    background: LinkText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  a.c0166:not(.c0159):not(.c0159):hover {
+    fill: LinkText !important;
+    color: LinkText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0166:hover:enabled, a.c0166:not(.c0159):hover {
+    fill: Highlight !important;
+    color: Highlight !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0166.c0159, .c0166.c0159 .c0158::before {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0166:active .c0158::before {
+    background: Highlight;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0166:hover .c0158::before {
+    background: Highlight;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0166 .c0158::before {
+    background: ButtonText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0166:focus-visible {
+    fill: Highlight !important;
+    color: Highlight !important;
+  }
+}
+.c0166:focus-visible .c0158::before {
+  background: #262626;
+  height: 2px;
+}
+@media (-ms-high-contrast:active) {
+  .c0166:focus-visible .c0158::before {
+    background: Highlight;
+  }
+}
+</style><style data-jss="" data-meta="BaseTypography">
+.c0148 {
+  margin-top: 0;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 0;
+  color: #262626;
+}
+.c0149 {
+  font-size: 60px;
+  line-height: 72px;
+}
+.c0150 {
+  font-size: 46px;
+  line-height: 56px;
+}
+.c0151 {
+  font-size: 34px;
+  line-height: 44px;
+}
+.c0152 {
+  font-size: 28px;
+  line-height: 36px;
+}
+.c0153 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.c0154 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.c0155 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.c0156 {
+  font-size: 12px;
+  line-height: 16px;
+}
+.c0157 {
+  font-size: 10px;
+  line-height: 16px;
+}
+</style><style data-jss="" data-meta="MSFTButtonBase - jssStyleSheet">
+.c0197 {
+  width: fit-content;
+  height: 28px;
+  margin: 2px 0;
+}
+</style><style data-jss="" data-meta="MSFTHeading">
+.c0140 {
+}
+.c0140.c0141, .c0140.c0142, .c0140.c0143, .c0140.c0144, .c0140.c0145, .c0140.c0146, .c0140.c0147 {
+  cursor: default;
+  font-weight: 600;
+}
+.c0141 {
+}
+.c0142 {
+}
+.c0143 {
+}
+.c0144 {
+}
+.c0145 {
+}
+.c0146 {
+}
+.c0147 {
+}
+</style><style data-jss="" data-meta="MSFTButtonBase">
+.c0131 {
+  position: relative;
+}
+.c0131::before {
+  width: 100%;
+  bottom: -3px;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  left: 0;
+}
+.c0131 svg {
+}
+.c0132 {
+  cursor: not-allowed !important;
+  opacity: 0.3;
+}
+@media (-ms-high-contrast:active) {
+  .c0132 {
+    color: GrayText;
+    opacity: 1;
+  }
+}
+.c0133 {
+  display: flex;
+  min-width: 20px;
+  min-height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.c0134 {
+}
+.c0135 {
+}
+.c0136 {
+}
+.c0137 {
+}
+.c0138 {
+}
+.c0138 .c0134 {
+  margin-right: 10px;
+}
+.c0138 .c0135 {
+  margin-left: 10px;
+}
+.c0139 {
+  cursor: pointer;
+  display: inline-flex;
+  overflow: hidden;
+  max-width: 374px;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  line-height: 1;
+  font-family: inherit;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  min-width: 32px;
+  padding: 0 8px;
+  height: 32px;
+  color: #262626;
+  fill: #262626;
+  background: #F7F7F7;
+}
+.c0139::-moz-focus-inner {
+  border: 0;
+}
+.c0139:hover:enabled, a.c0139:not(.c0132):hover {
+  background-color: #EAEAEA;
+}
+.c0139:active:enabled, a.c0139:not(.c0132):active {
+  background-color: #EFEFEF;
+}
+.c0139:focus {
+  outline: none;
+}
+.c0139:focus-visible {
+  border-color: #838383;
+}
+.c0139:disabled {
+}
+@media (-ms-high-contrast:active) {
+  .c0139 {
+    fill: ButtonText;
+    color: ButtonText;
+    border: none;
+    background: ButtonFace;
+    -ms-high-contrast-adjust: none;
+  }
+}
+a.c0139:not(.c0132) {
+}
+@media (-ms-high-contrast:active) {
+  a.c0139:not(.c0132) {
+    fill: LinkText !important;
+    color: LinkText !important;
+    background: Window;
+    border-color: LinkText !important;
+  }
+}
+a.c0139:not(.c0132):not(.c0132):hover {
+}
+a.c0139:not(.c0132).c0132 {
+}
+@media (-ms-high-contrast:active) {
+  a.c0139:not(.c0132).c0132 {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+    background: ButtonFace !important;
+    border-color: GrayText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  a.c0139:not(.c0132):not(.c0132):hover {
+    background: ButtonFace;
+    box-shadow: 0 0 0 1px inset LinkText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0139:disabled {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+    background: ButtonFace !important;
+    border-color: GrayText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0139:focus-visible {
+    border-color: ButtonText;
+    box-shadow: 0 0 0 1px inset ButtonText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0139:hover:enabled, a.c0139:not(.c0132):hover {
+    fill: HighlightText;
+    color: HighlightText;
+    background: Highlight;
+  }
+}
+</style><style data-jss="" data-meta="MSFTFlyout">
+.c0124 {
+  z-index: 1;
+  background: #F7F7F7;
+  border-radius: 4px;
+  box-shadow: 0px 25.6px 57.6px rgba(0,0,0,0.13908558841119492), 0px 0px 16.4px rgba(0,0,0,0.1176878055787034);
+}
+@media (-ms-high-contrast:active) {
+  .c0124 {
+    border: 1px solid WindowText;
+  }
+}
+.c0125 {
+}
+.c0126 {
+}
+.c0127 {
+}
+.c0128 {
+}
+.c0129 {
+}
+.c0130 {
+}
+</style><style data-jss="" data-meta="MSFTButtonBase">
+.c0115 {
+  position: relative;
+}
+.c0115::before {
+  width: 100%;
+  bottom: -3px;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  left: 0;
+}
+.c0115 svg {
+}
+.c0116 {
+  cursor: not-allowed !important;
+  opacity: 0.3;
+}
+@media (-ms-high-contrast:active) {
+  .c0116 {
+    color: GrayText;
+    opacity: 1;
+  }
+}
+.c0117 {
+  display: flex;
+  min-width: 20px;
+  min-height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.c0118 {
+}
+.c0119 {
+}
+.c0120 {
+}
+.c0121 {
+}
+.c0122 {
+}
+.c0122 .c0118 {
+  margin-right: 10px;
+}
+.c0122 .c0119 {
+  margin-left: 10px;
+}
+.c0123 {
+  cursor: pointer;
+  display: inline-flex;
+  overflow: hidden;
+  max-width: 374px;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  line-height: 1;
+  font-family: inherit;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  min-width: 32px;
+  padding: 0 8px;
+  height: 32px;
+  color: #000000;
+  fill: #000000;
+  background: #38C2EE;
+}
+.c0123::-moz-focus-inner {
+  border: 0;
+}
+.c0123:hover:enabled, a.c0123:not(.c0116):hover {
+  background-color: #52CAF0;
+}
+.c0123:active:enabled, a.c0123:not(.c0116):active {
+  background-color: #48C7EF;
+}
+.c0123:focus {
+  outline: none;
+}
+.c0123:focus-visible {
+  border-color: #155E75;
+}
+.c0123:disabled {
+}
+@media (-ms-high-contrast:active) {
+  .c0123 {
+    fill: ButtonText;
+    color: ButtonText;
+    border: none;
+    background: ButtonFace;
+    -ms-high-contrast-adjust: none;
+  }
+}
+a.c0123:not(.c0116) {
+}
+@media (-ms-high-contrast:active) {
+  a.c0123:not(.c0116) {
+    fill: LinkText !important;
+    color: LinkText !important;
+    background: Window;
+    border-color: LinkText !important;
+  }
+}
+a.c0123:not(.c0116):not(.c0116):hover {
+}
+a.c0123:not(.c0116).c0116 {
+}
+@media (-ms-high-contrast:active) {
+  a.c0123:not(.c0116).c0116 {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+    background: ButtonFace !important;
+    border-color: GrayText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  a.c0123:not(.c0116):not(.c0116):hover {
+    background: ButtonFace;
+    box-shadow: 0 0 0 1px inset LinkText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0123:disabled {
+    fill: GrayText !important;
+    color: GrayText !important;
+    opacity: 1;
+    background: ButtonFace !important;
+    border-color: GrayText !important;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0123:focus-visible {
+    border-color: ButtonText;
+    box-shadow: 0 0 0 1px inset ButtonText;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c0123:hover:enabled, a.c0123:not(.c0116):hover {
+    fill: HighlightText;
+    color: HighlightText;
+    background: Highlight;
+  }
+}
+</style><style data-jss="" data-meta="St">
+.c011 {
+  display: block;
+  margin-bottom: 4px;
+  background-color: transparent;
+  margin-inline-start: auto;
+}
+.c012 {
+  top: 0;
+  width: 28px;
+  right: 0;
+  height: 28px;
+  margin: 6px;
+  padding: 0;
+  position: absolute;
+  min-width: 28px;
+  max-width: unset;
+  transition: none;
+  background: transparent;
+}
+.c012:hover:not([disabled]) {
+}
+.c012 > * {
+  display: flex !important;
+}
+.c012:disabled {
+}
+@media (-ms-high-contrast:active) {
+  .c012 {
+    fill: ButtonText;
+    forced-color-adjust: none;
+  }
+}
+.c012 .c013 {
+  width: 20px;
+  height: 20px;
+}
+@media (-ms-high-contrast:active) {
+  .c012:disabled {
+    fill: GrayText;
+    forced-color-adjust: none;
+  }
+}
+@media (-ms-high-contrast:active) {
+  .c012:hover:not([disabled]) {
+    fill: HighlightText !important;
+    background: Highlight;
+    forced-color-adjust: none;
+  }
+}
+.c013 {
+}
+.c014 {
+  display: flex;
+  flex-direction: column;
+}
+.c015 {
+  margin: 8px -16px;
+}
+.c016 {
+  padding: 16px;
+}
+.c017 {
+  margin: 0 0 0.5em;
+  display: block;
+}
+.c018 {
+  display: flex;
+  margin-top: 8px;
+  align-items: center;
+}
+.c019 {
+  fill: currentColor;
+  width: 16px;
+  color: currentColor;
+  height: 16px;
+  margin-inline-end: 4px;
+}
+.c0110 {
+  display: flex;
+  padding: 6px 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.c0111 {
+  margin: 0 auto;
+}
+.c0112 {
+  fill: currentColor;
+  color: #262626;
+}
+.c0113 {
+  margin: 0 auto;
+  color: #262626;
+}
+.c0114 {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+</style></head><body><div id="game-bg" class="full-size"></div><div id="game-water" class="full-size" style="background-position: -59px -16px;"></div><canvas id="game-canvas" class="full-size" width="976" height="657" style="width: 976px; height: 657px;"></canvas><div id="game-tint" class="full-size"></div><div id="game-ui" class="full-size"><div id="ui-notify"></div><div id="ui-top"><div id="top-stats"><div id="stats-lives"><div class="icon life-full"></div><div class="icon life-empty"></div><div class="icon life-empty"></div></div><div id="stats-counter"><p id="counter-amount">703m</p></div><div id="stats-power"><div class="icon powerup-empty"></div><div class="icon powerup-empty"></div><div class="icon powerup-empty"></div></div></div></div></div><div style="display:none" id="preload"><img src="edge://surf/ambient64.png" id="ambient64"> <img src="edge://surf/docks64.png" id="docks64"> <img src="edge://surf/effects128.png" id="effects128"> <img src="edge://surf/enemy128.png" id="enemy128"> <img src="edge://surf/interact64.png" id="interact64"> <img src="edge://surf/interface24.png" id="interface24"> <img src="edge://surf/island1280.png" id="island1280"> <img src="edge://surf/objects32.png" id="objects32"> <img src="edge://surf/objects64.png" id="objects64"> <img src="edge://surf/player64.png" id="player64"> <img src="edge://surf/ripple96.png" id="ripple96"> <img src="edge://surf/sandbar256.png" id="sandbar256"> <img src="edge://surf/slowdown64.png" id="slowdown64"> <img src="edge://surf/surfboard64.png" id="surfboard64"> <img src="edge://surf/surfer64.png" id="surfer64"> <img src="edge://surf/water256.png" id="water256"></div><div id="hamburger-container" style="z-index: 11;"><button class="c0123 c011"><span class="c0115"><svg viewBox="0 0 16 10" width="16px" height="10px" xmlns="http://www.w3.org/2000/svg"><path d="M0 1H16V0H0V1ZM0 9H16V8H0V9ZM0 4.99219H16V4H0V4.99219Z"></path></svg></span></button><div class="c0124 c016" role="dialog" aria-hidden="true" style="position: relative; transform-origin: left top; transform: translate(0px, 0px); height: fit-content; width: 280px; display: none;"><button class="c0139 c012" title="Close"><span class="c0131"><svg width="20" height="20" viewBox="0 0 20 20" class="c013"><path d="M4.09 4.22l.06-.07a.5.5 0 01.63-.06l.07.06L10 9.29l5.15-5.14a.5.5 0 01.63-.06l.07.06c.18.17.2.44.06.63l-.06.07L10.71 10l5.14 5.15c.18.17.2.44.06.63l-.06.07a.5.5 0 01-.63.06l-.07-.06L10 10.71l-5.15 5.14a.5.5 0 01-.63.06l-.07-.06a.5.5 0 01-.06-.63l.06-.07L9.29 10 4.15 4.85a.5.5 0 01-.06-.63l.06-.07-.06.07z" fill-rule="nonzero"></path></svg></span></button><h2 class="c0148 c0155 c0140 c0147">Game settings</h2><button class="c0166"><span class="c0158">New game</span></button><label class="c0167 c017">Game mode (start new game to change)</label><div class="c0169"><button id="selecttrigger-1" class="c0170" aria-haspopup="listbox" aria-labelledby="selecttrigger-1" aria-describedby="" aria-expanded="false" disabled=""><span class="c0171"><div class="c0172">Let's surf</div><svg width="20" height="20" viewBox="0 0 20 20" class="c0173" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M15.85 7.65c.2.2.2.5 0 .7l-5.46 5.49a.55.55 0 01-.78 0L4.15 8.35a.5.5 0 01.7-.7L10 12.8l5.15-5.16c.2-.2.5-.2.7 0z"></path></svg></span></button><select disabled="" style="display: none;"></select></div><p class="c0148 c0155 c0182 c0185 c018"><svg class="c019" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="32" height="32"><path d="M1354 1167l438-527v1280H256V640l445 526 323-526 330 527zM384 384q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10q27 0 50 10t40 27 28 41 10 50zm640 128q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10zm768-256q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10z"></path></svg>Best score: 2513 m</p><hr class="c0186 c015"><div class="c0110"><label for="highVisibilityMode" class="c0167">High visiblity mode</label><div class="c0187"><div class="c0189 c0195"><input class="c0191" type="checkbox" id="highVisibilityMode" value="Off"><span class="c0190"></span></div><span class="c0194 c0196">Off</span></div></div><div class="c0110"><label for="reducedSpeedMode" class="c0167">Reduced speed mode</label><div class="c0187"><div class="c0189 c0195"><input class="c0191" type="checkbox" id="reducedSpeedMode" value="Off"><span class="c0190"></span></div><span class="c0194 c0196">Off</span></div></div><hr class="c0186 c015"><div class="c014"><button class="c0166 c0197"><span class="c0158">How to play</span></button><button class="c0166 c0197"><span class="c0158">Game credits</span></button><button class="c0166 c0197"><span class="c0158">Reset all stats</span></button></div></div></div><div id="modal-root" style="z-index: 13;"></div><script defer="defer" src="edge://surf/lib_react.chunk.js"></script><script defer="defer" src="edge://surf/lib_common.chunk.js"></script><script defer="defer" src="edge://surf/surf.bundle.js"></script><template id="icon-king-template"></template><template id="icon-arrow-left-template"></template><template id="icon-arrow-right-template"></template><template id="icon-key-left-template"></template><template id="icon-key-right-template"></template><template id="icon-dpad-left-template"></template><template id="icon-dpad-right-template"></template><template id="icon-xbox-a-template"></template><template id="icon-xbox-rt-template"></template><template id="icon-ps-x-template"></template><template id="icon-ps-r2-template"></template><template id="icon-inputs-keyboard-template"></template><template id="icon-inputs-touch-template"></template><template id="icon-inputs-mouse-template"></template><template id="icon-inputs-controller-template"></template><template id="icon-button-key-select-template"></template><template id="icon-button-icon-select-template"></template><template id="icon-button-keytext-action-template"></template><template id="icon-button-text-action-template"></template><template id="icon-button-icon-action-template"></template></body></html>
